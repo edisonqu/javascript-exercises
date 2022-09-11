@@ -1,7 +1,6 @@
 const sumAll = function(startNum, endNum) {
 
     if(startNum < 0 || endNum < 0 || typeof(startNum) !== "number" ||typeof(endNum) !== "number"  ){
-        console.log("hllo")
         return "ERROR"
     }
     else if(startNum === endNum){
